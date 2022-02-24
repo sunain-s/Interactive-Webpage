@@ -91,3 +91,12 @@ nav{
     height: 40px;
     padding-left: 10px;
 }
+
+.form-div a{
+    color: white;
+    transition: 0.5s;
+}
+
+.form-div a:hover{
+    color: yellow;
+}
