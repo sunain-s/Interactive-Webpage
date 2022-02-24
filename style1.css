@@ -85,3 +85,9 @@ nav{
     color: white;
     text-align: center;
 }
+
+.form-div input{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+}
