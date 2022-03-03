@@ -154,3 +154,14 @@ nav{
     float: right;
     height: 250px;
 }
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* Footer */
+
+.footer{
+    height: 50px;
+    background-color: #2b2c2c;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px 10px 0px;
+}
