@@ -42,3 +42,15 @@ nav{
 .nav-links ul li a:hover{
     color: #f00;
 }
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* Lessons */
+
+#lessons-title{
+    display: none;
+}
+
+.lessons-col{
+    margin-top: 0;
+    padding-top: 0;
+}
