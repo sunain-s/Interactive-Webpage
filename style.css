@@ -54,3 +54,26 @@ nav{
     margin-top: 0;
     padding-top: 0;
 }
+
+#html-img{
+    float: right;
+    height: 250px;
+}
+
+#css-img{
+    float: right;
+    padding-right: 33px;
+    height: 250px;
+}
+
+#js-img{
+    float: right;
+    height: 250px;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* Footer */
+
+.footer{
+    display: none;
+}
