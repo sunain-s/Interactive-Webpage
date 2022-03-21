@@ -77,3 +77,32 @@ nav{
 #b-js{
     color: yellow;
 }
+
+/*------------------------------------------------------*/
+/* Form */
+
+.form-div{
+    width: 50%;
+    height: 200px;
+    top: 30%;
+    margin: auto;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.form-div input{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.form-div a{
+    color: yellow;
+    text-decoration: none;
+    font-size: large;
+}
+
+.form-div a:hover{
+    color: plum;
+}
