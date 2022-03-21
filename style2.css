@@ -56,3 +56,24 @@ nav{
     text-align: center;
     cursor: default;
 }
+
+.text-box h1{
+    font-size: 80px;
+    color: #00ffea;
+}
+
+.text-box p{
+    font-size: large;
+}
+
+#b-html{
+    color: yellow;
+}
+
+#b-css{
+    color: yellow;
+}
+
+#b-js{
+    color: yellow;
+}
