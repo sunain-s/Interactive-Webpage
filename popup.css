@@ -1,0 +1,10 @@
+/* Popup CSS */
+
+:root {
+    --errorcolour: #f00e0e;
+    --validcolour: #0add0a;
+}
+
+.hidden {
+    visibility: hidden;
+}
