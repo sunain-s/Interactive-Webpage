@@ -75,3 +75,19 @@ nav {
     float: right;
     height: 250px;
 }
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* Contact Form */
+
+.contact-col {
+    margin-top: 30px;
+    position: relative;
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
