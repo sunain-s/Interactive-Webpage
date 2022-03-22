@@ -91,3 +91,16 @@ nav {
     align-items: center;
     margin-bottom: 20px;
 }
+
+.contact-col input, .contact-col textarea {
+    width: 50%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid  #ccc;
+}
+
+.submit-btn a {
+    text-decoration: none;
+    color: #000;
+}
