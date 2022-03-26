@@ -124,10 +124,20 @@
             </ul><br>
         </div>   
     </section>
-
+    
 <!-------------------------------------------------------------------------------------------------------------------------------->
 <!-- Contact Form -->
 
     <section class="contact">
         <h1>Contact Mr Carr</h1>
-        <p>In order to contact Mr Carr, please fill in the below form and submit your message. This will send an email to wcarr@agsb.co.uk</p>    
+        <p>In order to contact Mr Carr, please fill in the below form and submit your message. This will send an email to wcarr@agsb.co.uk</p>
+        <form>
+            <div class="contact-col">
+                <input type="text" name="subject" id="subject" placeholder="Enter your subject" required>
+                <textarea rows="16" name="message" id="message" placeholder="Message" required></textarea>
+            </div>
+            <div class="contact-col">
+                <button type="button" onclick="emailSender();" id="email-btn" class="submit-btn"><a href="#">Send email</a></button>
+            </div>
+        </form>
+    </section>
