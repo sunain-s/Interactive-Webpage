@@ -1,4 +1,6 @@
-/* Professional Style Sheet */
+/* Professional Mode CSS */
+
+@import url(popup.css);
 
 *{    
     margin: 0;
@@ -9,68 +11,155 @@
 /*--------------------------------------------------------------------------------------------------------*/
 /* Navigation Bar */
 
-nav{
+nav {
     display: flex;
     padding: 2% 3%;
     justify-content: space-between;
     align-content: center;
 }
 
-.nav-links{
+.nav-links {
     flex: 1;
     text-align: right;
 }
 
-.nav-links ul li{
+.nav-links ul li {
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
 }
 
-.nav-links ul li a{
+.nav-links ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 15px;
 }
 
-.nav-links ul li a:hover{
+.nav-links ul li a:hover {
     color: yellow;
+}
+
+.link-click {
+    text-decoration: none;
 }
 
 /*--------------------------------------------------------------------------------------------------------*/
 /* Header */
 
-.header{
+.header {
     height: 100vh;
     width: 100%;
     background-color: #2b2c2c;
 }
 
-.text-box{
+.text-box {
     width: 100%;
     color: #fff;
     position: relative;
     margin: auto;
     top: 25%;
     text-align: center;
-    cursor: default;
 }
 
-.text-box h1{
+.text-box h1 {
     font-size: 76px;
 }
 
-#b-html{
+#b-html {
     color: red;
 }
 
-#b-css{
+#b-css {
     color: turquoise;
 }
 
-#b-js{
+#b-js {
     color: yellow;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* Form */
+
+.form-div {
+    width: 50%;
+    height: 200px;
+    top: 30%;
+    margin: auto;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.form-div input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.form-div a {
+    color: white;
+}
+
+.form-div a:hover {
+    color: yellow;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* Lessons */
+
+.lessons {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    padding: 50px 0;
+    background-color: white;
+}
+
+.lessons-col {
+    width: 80%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    position: relative;
+    color: #343535;
+}
+
+.lessons-col ul {
+    padding-left: 30px;
+}
+
+.lessons h1 {
+    margin-left: 10%;
+    padding-left: 10px;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.lessons h2 {
+    font-size: 27px;
+    padding-bottom: 10px;
+}
+
+#html-img {
+    margin-top: 20px;
+    float: right;
+    height: 250px;
+}
+
+#css-img {
+    margin-top: 20px;
+    float: right;
+    height: 250px;
+}
+
+#js-img {
+    margin-top: 20px;
+    float: right;
+    height: 250px;
 }
 
 /*--------------------------------------------------------------------------------------------------------*/
@@ -139,102 +228,19 @@ nav{
     color: #fff;
 }
 
-
-/*------------------------------------------------------*/
-/* Form */
-
-.form-div{
-    width: 50%;
-    height: 200px;
-    top: 30%;
-    margin: auto;
-    position: relative;
-    color: white;
-    text-align: center;
-}
-
-.form-div input{
-    width: 100%;
-    height: 40px;
-    padding-left: 10px;
-}
-
-.form-div a{
-    color: white;
-    transition: 0.5s;
-}
-
-.form-div a:hover{
-    color: yellow;
-}
-
-/*--------------------------------------------------------------------------------------------------------*/
-/* Lessons */
-
-.lessons{
-    width: 100%;
-    margin: auto;
-    text-align: left;
-    padding: 50px 0;
-    background-color: white;
-}
-
-.lessons-col{
-    width: 80%;
-    background: #fff3f3;
-    border-radius: 10px;
-    margin: auto;
-    margin-bottom: 30px;
-    padding: 10px 15px;
-    box-sizing: border-box;
-    position: relative;
-    color: #343535;
-}
-
-.lessons-col ul{
-    padding-left: 30px;
-}
-
-.lessons h1{
-    margin-left: 10%;
-    padding-left: 10px;
-    font-size: 40px;
-    padding-bottom: 20px;
-}
-
-.lessons h2{
-    font-size: 27px;
-}
-
-#html-img{
-    float: right;
-    height: 250px;
-}
-
-#css-img{
-    float: right;
-    padding-right: 33px;
-    height: 250px;
-}
-
-#js-img{
-    float: right;
-    height: 250px;
-}
-
 /*--------------------------------------------------------------------------------------------------------*/
 /* Footer */
 
-.footer{
-    height: 50px;
+.footer {
+    height: 70px;
     background-color: #2b2c2c;
     width: 100%;
     text-align: center;
     padding: 5px 0px 10px 0px;
 }
 
-.footer p{
-    margin: 17px 0px;
+.footer p {
+    margin: 10px 0px;
     font-size: 15px;
     font-weight: 600;
     color: white;
