@@ -114,6 +114,32 @@ nav{
     resize: none;
 }
 
+.submit-btn {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #f00;
+    padding: 12px 20px;
+    font-size: 16px;
+    background: transparent;
+    position: static;
+    cursor: pointer;
+}
+
+.submit-btn a {
+    color: #f00;
+    text-decoration: none;
+}
+
+.submit-btn:hover {
+    background: rgb(255, 0, 0);
+    font-weight: bolder;
+}
+
+.submit-btn:hover a {
+    color: #fff;
+}
+
+
 /*------------------------------------------------------*/
 /* Form */
 
