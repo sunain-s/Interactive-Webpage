@@ -93,6 +93,27 @@ nav{
     padding-left: 10%;
 }
 
+.contact-col {
+    margin-top: 10px;
+    padding-left: 10%;
+    position: relative;
+    flex-basis: 48%;
+}
+
+.contact-col div {
+    display: flex;
+    align-items: center;
+}
+
+.contact-col input, .contact-col textarea {
+    width: 87%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid  #ccc;
+    resize: none;
+}
+
 /*------------------------------------------------------*/
 /* Form */
 
