@@ -23,3 +23,13 @@
     background-color: rgba(0, 0, 0, 0.7);
     display: none;
 }
+
+.close-btn {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-weight: 800;
+    font-size: 24px;
+    z-index: 1;
+    cursor: pointer;
+}
