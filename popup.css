@@ -33,3 +33,14 @@
     z-index: 1;
     cursor: pointer;
 }
+
+.popup-content {
+    background: #f4f4f4;
+    margin: 5% auto;
+    height: 79.5vh;
+    width: 60%;
+    position: relative;
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
