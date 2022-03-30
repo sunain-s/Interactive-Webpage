@@ -44,3 +44,22 @@
     display: grid;
     grid-template-columns: 45% 55%;
 }
+
+.popup-content-left {
+    background-color: rgb(48, 200, 211);
+    border-radius: 0 3px 3px 0;
+    position: relative;
+}
+
+#popup-img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup-content-right {
+    border-radius: 0 3px 3px 0;
+    position: relative;
+}
