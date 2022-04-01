@@ -114,3 +114,8 @@
     font-size: large;
     
 }
+
+.popup-sign-in-btn:hover {
+    background-color: red;
+    cursor: pointer;
+}
