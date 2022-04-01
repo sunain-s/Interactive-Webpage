@@ -79,3 +79,21 @@
     justify-content: center;
     align-items: center;
 }
+
+.popup-form h1 {
+    font-size: 40px;
+    text-align: start;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.popup-input {
+    display: block;
+    padding-left: 8px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    height: 48px;
+    width: 98.3%;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05)
+}
