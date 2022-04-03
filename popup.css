@@ -127,3 +127,10 @@
     margin-bottom: 24px;
     width: 80%;
 }
+
+.form-validation.error {
+    margin-bottom: 24px;
+    position: relative;
+    border: 2px solid var(--errorcolour);
+    border-radius: 2px;
+}
