@@ -119,3 +119,11 @@
     background-color: red;
     cursor: pointer;
 }
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* Popup Form Validation */
+
+.form-validation {
+    margin-bottom: 24px;
+    width: 80%;
+}
