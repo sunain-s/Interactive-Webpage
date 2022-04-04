@@ -134,3 +134,10 @@
     border: 2px solid var(--errorcolour);
     border-radius: 2px;
 }
+
+.form-validation.valid {
+    margin-bottom: 8px;
+    position: relative;
+    border: 1px solid var(--validcolour);
+    border-radius: 2px;
+}
