@@ -149,3 +149,7 @@
     position: absolute;
     display: none;
 }
+
+.form-validation.error p {
+    display: block;
+}
