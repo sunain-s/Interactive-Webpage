@@ -141,3 +141,11 @@
     border: 1px solid var(--validcolour);
     border-radius: 2px;
 }
+
+.form-validation p {
+    font-size: 12px;
+    margin-top: 5px;
+    color: var(--errorcolour);
+    position: absolute;
+    display: none;
+}
