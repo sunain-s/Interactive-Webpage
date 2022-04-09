@@ -48,3 +48,22 @@ nav{
     width: 100%;
     background-color: #2b2c2c;
 }
+
+.text-box {
+    width: 100%;
+    color: #59ffa0;
+    position: relative;
+    margin: auto;
+    top: 25%;
+    text-align: center;
+    cursor: default;
+}
+
+.text-box h1 {
+    font-size: 80px;
+    color: #00ffea;
+}
+
+.text-box p {
+    font-size: large;
+}
