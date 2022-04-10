@@ -98,3 +98,12 @@ nav{
     height: 40px;
     padding-left: 10px;
 }
+
+.form-div a {
+    color: yellow;
+    font-size: large;
+}
+
+.form-div a:hover {
+    color: plum;
+}
