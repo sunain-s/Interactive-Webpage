@@ -118,3 +118,19 @@ nav{
     padding: 50px 0;
     background-color: #fff3f3;
 }
+
+.lessons-col {
+    width: 80%;
+    background: #343535;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    position: relative;
+    color: yellow;
+}
+
+.lessons-col ul {
+    padding-left: 30px;
+}
