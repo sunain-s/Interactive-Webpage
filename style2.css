@@ -134,3 +134,17 @@ nav{
 .lessons-col ul {
     padding-left: 30px;
 }
+
+.lessons h1 {
+    margin-left: 10%;
+    padding-left: 10px;
+    font-size: 60px;
+    padding-bottom: 20px;
+    color: #2b2c2c;
+}
+
+.lessons h2 {
+    font-size: 35px;
+    padding-bottom: 10px;
+    color: #59ffa0;
+}
