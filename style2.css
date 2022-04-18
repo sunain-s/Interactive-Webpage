@@ -196,3 +196,9 @@ nav{
     padding-left: 10%;
     color: #00ffea;
 }
+
+.contact p {
+    color: #59ffa0;
+    font-size: 20px;
+    padding-left: 10%;
+}
