@@ -202,3 +202,10 @@ nav{
     font-size: 20px;
     padding-left: 10%;
 }
+
+.contact-col {
+    margin-top: 10px;
+    padding-left: 10%;
+    position: relative;
+    flex-basis: 48%;
+}
