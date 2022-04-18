@@ -190,3 +190,9 @@ nav{
     text-align: left;
     padding-top: 50px;
 }
+
+.contact h1 {
+    font-size: 45px;
+    padding-left: 10%;
+    color: #00ffea;
+}
