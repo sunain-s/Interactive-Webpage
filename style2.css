@@ -214,3 +214,13 @@ nav{
     display: flex;
     align-items: center;
 }
+
+.contact-col input, .contact-col textarea {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid  #ccc;
+    color: #00ffea;
+    background-color: #2b2c2c;
+}
