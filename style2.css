@@ -209,3 +209,8 @@ nav{
     position: relative;
     flex-basis: 48%;
 }
+
+.contact-col div {
+    display: flex;
+    align-items: center;
+}
