@@ -224,3 +224,8 @@ nav{
     color: #00ffea;
     background-color: #2b2c2c;
 }
+
+.contact-col input::placeholder, .contact-col textarea::placeholder {
+    color: yellow;
+    font-size: 16px;
+}
