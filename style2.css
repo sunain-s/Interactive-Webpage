@@ -240,3 +240,8 @@ nav{
     position: static;
     cursor: pointer;
 }
+
+.submit-btn a {
+    color: #59ffa0;
+    text-decoration: none;
+}
