@@ -229,3 +229,14 @@ nav{
     color: yellow;
     font-size: 16px;
 }
+
+.submit-btn {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #59ffa0;
+    padding: 12px 20px;
+    font-size: 16px;
+    background: transparent;
+    position: static;
+    cursor: pointer;
+}
