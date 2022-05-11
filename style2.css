@@ -250,3 +250,7 @@ nav{
     background: #59ffa0;
     font-weight: bolder;
 }
+
+.submit-btn:hover a {
+    color: #000;
+}
