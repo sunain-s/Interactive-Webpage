@@ -12,3 +12,8 @@
     0% {transform: rotate(360deg);}
     50% {transform: rotate(-360deg);}
 }
+
+.body {
+    animation: rotate 25s 5s infinite;
+    background-image: url(images/gintoki.gif);
+}
