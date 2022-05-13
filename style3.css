@@ -7,3 +7,8 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+@keyframes rotate {
+    0% {transform: rotate(360deg);}
+    50% {transform: rotate(-360deg);}
+}
