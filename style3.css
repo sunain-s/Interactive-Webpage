@@ -17,3 +17,13 @@
     animation: rotate 25s 5s infinite;
     background-image: url(images/gintoki.gif);
 }
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* Navigation Bar */
+
+nav {
+    display: flex;
+    padding: 2% 3%;
+    justify-content: space-between;
+    align-content: center;
+}
