@@ -27,3 +27,8 @@ nav {
     justify-content: space-between;
     align-content: center;
 }
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
