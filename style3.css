@@ -71,3 +71,19 @@ nav {
     top: 25%;
     text-align: center;
 }
+
+.text-box h1 {
+    font-size: 76px;
+}
+
+#b-html {
+    color: red;
+}
+
+#b-css {
+    color: turquoise;
+}
+
+#b-js {
+    color: yellow;
+}
