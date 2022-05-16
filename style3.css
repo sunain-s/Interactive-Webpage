@@ -106,3 +106,11 @@ nav {
     height: 40px;
     padding-left: 10px;
 }
+
+.form-div a {
+    color: white;
+}
+
+.form-div a:hover {
+    color: yellow;
+}
