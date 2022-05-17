@@ -137,3 +137,7 @@ nav {
     position: relative;
     color: #343535;
 }
+
+.lessons-col ul {
+    padding-left: 30px;
+}
