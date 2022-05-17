@@ -141,3 +141,10 @@ nav {
 .lessons-col ul {
     padding-left: 30px;
 }
+
+.lessons h1 {
+    margin-left: 10%;
+    padding-left: 10px;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
