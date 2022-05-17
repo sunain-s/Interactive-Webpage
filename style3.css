@@ -125,3 +125,15 @@ nav {
     padding: 50px 0;
     background-color: white;
 }
+
+.lessons-col {
+    width: 80%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    position: relative;
+    color: #343535;
+}
