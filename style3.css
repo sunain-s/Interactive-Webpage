@@ -153,3 +153,9 @@ nav {
     font-size: 27px;
     padding-bottom: 10px;
 }
+
+#html-img {
+    margin-top: 20px;
+    float: right;
+    height: 250px;
+}
