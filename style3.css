@@ -182,3 +182,12 @@ nav {
     text-align: left;
     padding-top: 50px;
 }
+
+.contact h1 {
+    font-size: 35px;
+    padding-left: 10%;
+}
+
+.contact p {
+    padding-left: 10%;
+}
