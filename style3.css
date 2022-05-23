@@ -203,3 +203,12 @@ nav {
     display: flex;
     align-items: center;
 }
+
+.contact-col input, .contact-col textarea {
+    width: 87%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid  #ccc;
+    resize: none;
+}
