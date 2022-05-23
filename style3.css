@@ -191,3 +191,10 @@ nav {
 .contact p {
     padding-left: 10%;
 }
+
+.contact-col {
+    margin-top: 10px;
+    padding-left: 10%;
+    position: relative;
+    flex-basis: 48%;
+}
