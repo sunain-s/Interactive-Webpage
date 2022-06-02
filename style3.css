@@ -237,3 +237,14 @@ nav {
 .submit-btn:hover a {
     color: #fff;
 }
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* Footer */
+
+.footer {
+    height: 70px;
+    background-color: #2b2c2c;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px 10px 0px;
+}
