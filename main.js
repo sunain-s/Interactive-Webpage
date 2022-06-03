@@ -26,3 +26,10 @@ function changeImages(id1, index1, id2, index2, id3, index3) {
         document.getElementById(id2).src = images[0][index2];
         document.getElementById(id3).src = images[0][index3];
     }
+    else {
+        document.getElementById(id1).src = images[1][index1];
+        document.getElementById(id2).src = images[1][index2];
+        document.getElementById(id3).src = images[1][index3];
+    }
+    swap = !swap;
+}
