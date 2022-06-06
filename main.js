@@ -49,3 +49,9 @@ function showValid(input) {
     var formValidation = input.parentElement;
     formValidation.className = 'form-validation valid';
 }
+
+function getFieldName(input) {
+    // get name value of input and formats
+
+    return input.name.charAt(0).toUpperCase() + input.name.slice(1);
+}
