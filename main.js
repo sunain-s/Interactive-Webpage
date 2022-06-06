@@ -55,3 +55,11 @@ function getFieldName(input) {
 
     return input.name.charAt(0).toUpperCase() + input.name.slice(1);
 }
+
+function checkRequired(array) {
+    // checks field isn't left empty
+
+    array.forEach(function(input) {
+        if (input.value.trim() === '') {
+            showError(input, `${getFieldName(input)} is required`);
+        }
