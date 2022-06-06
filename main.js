@@ -63,3 +63,8 @@ function checkRequired(array) {
         if (input.value.trim() === '') {
             showError(input, `${getFieldName(input)} is required`);
         }
+        else {
+            showValid(input);
+        }
+    });
+}
