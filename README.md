@@ -1,2 +1,3 @@
-# School-Web-Tasks
-School Webpage Development Version History
+# Interactive Webpage
+
+First attempt at implementing JS into a webpage.
