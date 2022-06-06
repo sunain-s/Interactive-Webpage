@@ -33,3 +33,12 @@ function changeImages(id1, index1, id2, index2, id3, index3) {
     }
     swap = !swap;
 }
+
+function showError(input, message) {
+    // invalid input entered display
+
+    var formValidation = input.parentElement;
+    formValidation.className = 'form-validation error';
+    const errorMessage = formValidation.querySelector('p');
+    errorMessage.innerText = message;
+}
