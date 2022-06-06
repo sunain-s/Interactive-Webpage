@@ -42,3 +42,10 @@ function showError(input, message) {
     const errorMessage = formValidation.querySelector('p');
     errorMessage.innerText = message;
 }
+
+function showValid(input) {
+    // valid input entered display
+
+    var formValidation = input.parentElement;
+    formValidation.className = 'form-validation valid';
+}
