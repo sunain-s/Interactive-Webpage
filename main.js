@@ -68,3 +68,10 @@ function checkRequired(array) {
         }
     });
 }
+
+function checkLength(input, min, max) {
+    // input length check
+
+    if (input.value.length < min) {
+        showError(input, `${getFieldName(input)} must be at least ${min} characters`);
+    }
