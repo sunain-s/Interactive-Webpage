@@ -19,7 +19,7 @@ function countLinkClicks(count, click_id, id) {
 }
 
 function changeImages(id1, index1, id2, index2, id3, index3) {
-    // swaps images every second
+    // swaps images
 
     if (swap) {
         document.getElementById(id1).src = images[0][index1];
@@ -115,3 +115,9 @@ function popupSubscription() {
     const popup = document.getElementById('email-popup');
     const closeBtn = document.querySelector('.close-btn');
     popup.style.display = 'block';
+    
+    // ways to close form
+    closeBtn.addEventListener('click', () => {
+        popup.style.display = 'none'
+    })
+
