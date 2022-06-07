@@ -108,3 +108,10 @@ function formValidationFunc() {
         passwordMatch(password, confirmPassword);
     })
 }
+
+function popupSubscription() {
+    // opens popup subscription form
+
+    const popup = document.getElementById('email-popup');
+    const closeBtn = document.querySelector('.close-btn');
+    popup.style.display = 'block';
