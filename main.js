@@ -98,3 +98,13 @@ function formValidationFunc() {
     const email = document.getElementById('email-address');
     const password = document.getElementById('password');
     const confirmPassword = document.getElementById('password-confirm');
+
+    form.addEventListener('submit', (e) => {
+        // calls all validation checks
+        e.preventDefault();
+        checkRequired([email, password, confirmPassword]);
+        checkLength(password, 8, 25);
+        checkLength(confirmPassword, 8, 25);
+        passwordMatch(password, confirmPassword);
+    })
+}
