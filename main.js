@@ -121,3 +121,11 @@ function popupSubscription() {
         popup.style.display = 'none'
     })
 
+    window.addEventListener('click', (e) => {
+        if (e.target === popup) {
+            popup.style.display = 'none';
+        }
+    })
+
+    formValidationFunc();
+}
