@@ -90,3 +90,11 @@ function passwordMatch(input1, input2) {
         showError(input2, 'Passwords do not match')
     }
 }
+
+function formValidationFunc() {
+    // input validation for popup form
+
+    const form = document.getElementById('form');
+    const email = document.getElementById('email-address');
+    const password = document.getElementById('password');
+    const confirmPassword = document.getElementById('password-confirm');
