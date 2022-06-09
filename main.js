@@ -137,3 +137,8 @@ function checkFields(array, formEmail) {
         if (input.value.trim() === '') {
             return false;
         }
+        else {
+            window.open(`mailto:${formEmail}?subject=${array[0].value}&body=${encodeURIComponent(array[1].value)}`);
+        }
+    });
+}
