@@ -142,3 +142,13 @@ function checkFields(array, formEmail) {
         }
     });
 }
+
+function emailSender() {
+    // gets fields to send email
+
+    const formEmail = 'asi4nguy@gmail.com';
+    var formSubject = document.getElementById('subject');
+    var formMessage = document.getElementById('message');
+    
+    checkFields([formSubject, formMessage], formEmail);
+}
