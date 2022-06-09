@@ -129,3 +129,11 @@ function popupSubscription() {
 
     formValidationFunc();
 }
+
+function checkFields(array, formEmail) {
+    // checks field isn't left empty
+
+    array.forEach(function(input) {
+        if (input.value.trim() === '') {
+            return false;
+        }
