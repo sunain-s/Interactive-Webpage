@@ -161,10 +161,13 @@ function mainFunction() {
     setInterval(changeImages, 20000, 'html-img', 0, 'css-img', 1, 'js-img', 2);
 }
 
-// constants
+// globals
 var count = 0;
 var swap = false;
 var images = [
     ['images/html.png', 'images/css.png', 'images/js.png'],
     ['images/GintokiShock.png', 'images/EyesPopped.png', 'images/NootNoot.png']
 ];
+
+// runs on load
+mainFunction();
