@@ -152,3 +152,11 @@ function emailSender() {
     
     checkFields([formSubject, formMessage], formEmail);
 }
+
+function mainFunction() {
+    // calls other functions
+
+    countLinkClicks(count, 'mdn-link', 'display');
+    setTimeout(popupSubscription, 5000);
+    setInterval(changeImages, 20000, 'html-img', 0, 'css-img', 1, 'js-img', 2);
+}
