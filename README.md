@@ -20,3 +20,5 @@ Implementing JS into a webpage to make it more interactive, as well as using mul
 - Editing properties of HTML tags using JS
 - How to create a professional popup, with input box alerts
 - Using form data and a mailto link to create a ready to send email
+
+# Improvements
