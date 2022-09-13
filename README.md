@@ -23,4 +23,7 @@ Implementing JS into a webpage to make it more interactive, as well as using mul
 
 # Improvements
 
-Sunny needs to get bitches
+Device responsivity - with icons and swipe sidebar for mobile devices.\
+Add an in-website contact form, rather than using a mailto link.\
+==> would need to use a backend language or framework e.g. PHP\
+==> requires to be hosted on a server with a site email included in plan to function
