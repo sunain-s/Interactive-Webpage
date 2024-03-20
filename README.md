@@ -2,7 +2,7 @@
 
 Implementing JS into a webpage to make it more interactive, as well as using multiple stylesheets for different themes.
 
-# Requirements
+## Requirements
 - Default HTML sheet
 - 4 stylesheets: default, professional, accessible, 'funky'
 - Must be able to switch between styles
@@ -12,7 +12,7 @@ Implementing JS into a webpage to make it more interactive, as well as using mul
 - Alert boxes when data is inputted incorrectly
 - Count the number of times a link is pressed
 
-# What I Learnt
+## What I Learnt
 
 - The importance and meaning of colours and how colour theory is a key part of web design
   - I learnt about the useful colour palette website https://coolors.co/ which generates palettes based on requirements
@@ -21,7 +21,7 @@ Implementing JS into a webpage to make it more interactive, as well as using mul
 - How to create a professional popup, with input box alerts
 - Using form data and a mailto link to create a ready to send email
 
-# Improvements
+## Improvements
 
 Device responsivity - with icons and swipe sidebar for mobile devices.\
 Add an in-website contact form, rather than using a mailto link.\
